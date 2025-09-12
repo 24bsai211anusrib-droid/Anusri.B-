@@ -1,0 +1,181 @@
+/* General */
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  line-height: 1.6;
+
+  text-align: center;
+
+  background: #fdfdfd;
+
+  color: #333;
+
+}
+
+/* Hero Section */
+
+.hero {
+
+  background: #6c63ff;
+
+  color: #fff;
+
+  padding: 50px 20px;
+
+}
+
+.hero h1 {
+
+  font-size: 3rem;
+
+}
+
+.hero p {
+
+  margin: 10px 0;
+
+}
+
+.btn {
+
+  background: #ff6f61;
+
+  color: #fff;
+
+  padding: 12px 20px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  margin-top: 15px;
+
+  font-size: 1rem;
+
+}
+
+.btn:hover {
+
+  background: #e55a4f;
+
+}
+
+/* About Section */
+
+.about {
+
+  padding: 40px 20px;
+
+}
+
+.about h2 {
+
+  margin-bottom: 20px;
+
+}
+
+.profile {
+
+  width: 150px;
+
+  height: 150px;
+
+  border-radius: 50%;
+
+  margin: 15px 0;
+
+  border: 3px solid #6c63ff;
+
+}
+
+/* Projects Section */
+
+.projects {
+
+  background: #f4f4f4;
+
+  padding: 40px 20px;
+
+}
+
+.project-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  margin-top: 20px;
+
+  flex-wrap: wrap;
+
+}
+
+.project-box {
+
+  background: #fff;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  width: 250px;
+
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+  transition: transform 0.3s ease;
+
+}
+
+.project-box:hover {
+
+  transform: translateY(-5px);
+
+}
+
+/* Contact Section */
+
+.contact {
+
+  padding: 40px 20px;
+
+}
+
+.contact-box {
+
+  background: #fff;
+
+  margin: 10px auto;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  width: 300px;
+
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+
+/* Footer */
+
+footer {
+
+  background: #222;
+
+  color: #fff;
+
+  padding: 15px;
+
+  margin-top: 20px;
+
+}
